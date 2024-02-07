@@ -7,7 +7,7 @@ on:
 
 jobs:
   build:
-    if: github.repository == 'henriksson-lab/demo_elasticnet'
+    if: github.repository == 'henriksson-lab/introtobioinfo_docker'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
